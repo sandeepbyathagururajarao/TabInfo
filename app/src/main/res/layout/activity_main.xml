@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/activity_background"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="204dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/logo"
+            app:srcCompat="@mipmap/tabinfo_logo" />
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/logo"
+            android:text="@string/language"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/english"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:layout_gravity="center_horizontal"
+            android:onClick="englishClick"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/kannada"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kannada"
+            android:layout_gravity="center_horizontal"
+            android:onClick="kannadaClick"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/hindi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hindi"
+            android:layout_gravity="center_horizontal"
+            android:onClick="hindiClick"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="6dp">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="6dp"
+            android:textColor="@color/accent"
+            android:text="@string/usage" />
+    </TableRow>
+</TableLayout>

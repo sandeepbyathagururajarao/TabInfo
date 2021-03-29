@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TabInfo QR Scanner</string>
+    <string name="code_scanner">Code Scanner</string>
+    <string name="scan_result">Drug Details</string>
+    <string name="scanner_error">Scanner error: %s</string>
+    <string name="close">Close</string>
+    <string name="buy">Buy</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="indeterminate">Indeterminate</string>
+    <string name="language">Choose a language</string>
+    <string name="buffering_string">Buffering&#8230;</string>
+    <string name="video_loads">Wait until the video loads</string>
+    <string name="audio_loads">Click on the "Play Audio" button to start the audio playback</string>
+    <string name="toast_message">Playback completed.</string>
+    <string name="logo">Logo</string>
+    <string name="english">English</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="usage">
+    How to use?\n
+    1. Choose a language of your choice\n
+    2. Scan the QR code on the medicine strip\n
+    3. View information about your medicine such as usage, dosage &amp; side-effects\n
+    4. Watch video about your medicine\n
+    5. Hear an audio clip detailing the usage of your medicine\n
+    </string>
+</resources>
